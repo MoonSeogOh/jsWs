@@ -1,7 +1,7 @@
-. contextmenu.js <- 오른쪽 클릭 메뉴 추가
-. devtools_detection.js <- devtools 감지 추가
+### contextmenu.js <- 오른쪽 클릭 메뉴 추가
+### devtools_detection.js <- devtools 감지 추가
  - 기본 감지 방법 추가
-    ```
+    ``` javascript
     // 기본 사용
     const detector = new DevToolsDetector();
     detector.init();
@@ -12,9 +12,9 @@
         () => { alert('DevTools 닫힘!'); }
     );
     ```    
-. Template_Engine.js <- 템플릿 엔진 추가
+### Template_Engine.js <- 템플릿 엔진 추가
  - 사용 예제 추가
-    ``` 
+    ``` html 
     <!-- 1. HTML에서 템플릿 정의 -->
     <script id="myTemplate" type="text/template">
         <h1>{{title}}</h1>
